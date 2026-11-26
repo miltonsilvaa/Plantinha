@@ -12,9 +12,14 @@ O circuito e a lógica do firnware podem ser testados interativamente diretament
 ## Arquitetura & Especificações Técnicas
 
 ### Hardware & Componentes
+- ESP32: Microcontrolador com Wi-Fi embutido.
+- Sensor DHT22: Mede temperatura e umidade.
+- LED com Resistor de 220Ω: Indica o comando recebido.
 
 ### Software & Ferramentas
-
+- Wokwi: Simulador onde o projeto foi montado e testado.
+- ThingSpeak: Guarda as leituras e mostra em gráficos.
+- Telegram (bot): Envia alerta para o celular.
 ## Autores & Integrantes
 * Arthur Batista
 * Felipe Francisco
